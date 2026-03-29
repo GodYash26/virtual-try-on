@@ -1,0 +1,32 @@
+# Install PyTorch first with the wheel that matches your CUDA/runtime setup.
+# Example GPU install:
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+# Example CPU install:
+#   pip install torch torchvision torchaudio
+
+accelerate
+basicsr
+controlnet-aux
+diffusers
+einops
+facexlib
+gfpgan
+gradio>=4.0
+huggingface_hub
+insightface
+jupyterlab
+lpips
+matplotlib
+numpy
+onnxruntime-gpu
+open_clip_torch
+opencv-python-headless
+Pillow
+realesrgan
+rembg[gpu]
+scikit-image
+scikit-learn
+scipy
+segment-anything
+timm
+transformers
